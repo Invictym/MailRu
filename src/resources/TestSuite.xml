@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TutSuite" verbose="1" >
+    <test name="TutByTest" >
+        <parameter name="login" value="mailtestuser133"/>
+        <parameter name="password" value="908070tu"/>
+        <parameter name="to" value="mailtestuser133@mail.ru"/>
+        <parameter name="body" value="Test message"/>
+        <classes>
+            <class name="ru.mail.tests.SendEmailTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
