@@ -2,7 +2,7 @@
 
 <suite name="TutSuite" verbose="1" >
     <test name="TutByTest" >
-        <parameter name="login" value="mailtestuser133"/>
+        <parameter name="login" value="mailtestuser133@mail.ru"/>
         <parameter name="password" value="908070tu"/>
         <parameter name="to" value="mailtestuser133@mail.ru"/>
         <parameter name="body" value="Test message"/>
